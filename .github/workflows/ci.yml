@@ -22,5 +22,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run basic test (placeholder)
-      run: echo "No tests yet, but CI works"
+    - name: Run basic tests with Jest
+      run: npm test
