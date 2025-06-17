@@ -20,7 +20,7 @@ jobs:
         node-version: 18
 
     - name: Install dependencies
-      run: npm install
+      run: npm ci --no-optional
 
     - name: Run basic tests with Jest
       run: npm test
